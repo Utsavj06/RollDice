@@ -1,0 +1,197 @@
+body {
+  background-color: rgb(231, 165, 165);
+  width: 95%;
+  height: 200%;
+}
+
+.player {
+  width: 500px;
+  background-color: royalblue;
+  position: absolute;
+}
+
+.dice {
+  width: 100px;
+  height: 100px;
+}
+
+.player0 {
+  height: 550px;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+
+.player1 {
+  height: 550px;
+  margin-left: 650px;
+  margin-top: 20px;
+}
+
+.playerName {
+  font-size: 60px;
+  margin-left: 130px;
+}
+
+.score {
+  font-size: 100px;
+  margin-top: 0px;
+  margin-left: 170px;
+}
+
+.current {
+  width: 170px;
+  background-color: rgb(103, 112, 139);
+  height: 100px;
+  text-align: center;
+  padding-top: 0px;
+  font-size: 30px;
+  margin-left: 120px;
+}
+
+.dice {
+  position: absolute;
+  margin-top: 180px;
+  margin-left: 600px;
+}
+
+.bt {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+}
+
+.bnew {
+  margin-top: 100px;
+  margin-left: 575px;
+}
+
+.bdice {
+  margin-top: 400px;
+  margin-left: 575px;
+}
+
+.bhold {
+  margin-top: 480px;
+  margin-left: 575px;
+}
+
+.hidden {
+  display: none;
+}
+
+.player-active {
+  background-color: rgb(139, 139, 228);
+}
+
+.winner {
+  position: absolute;
+  font-size: 40px;
+  color: yellow;
+  background-color: black;
+  width: 300px;
+  text-align: center;
+  margin: 200px;
+  margin-left: 500px;
+  height: 150px;
+  padding-top: 120px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  body {
+    background-color: rgb(231, 165, 165);
+    width: 100%;
+  }
+
+  .player {
+    width: 47%;
+    background-color: royalblue;
+    position: absolute;
+  }
+
+  .player0 {
+    height: 400px;
+    margin-left: 5px;
+    margin-top: 40px;
+  }
+
+  .player1 {
+    height: 400px;
+    margin-left: 172px;
+    margin-top: 40px;
+  }
+
+  .playerName {
+    font-size: 25px;
+    margin-left: 40px;
+  }
+
+  .score {
+    font-size: 55px;
+    margin-top: 0px;
+    margin-left: 60px;
+  }
+
+  .current {
+    width: 80px;
+    background-color: rgb(103, 112, 139);
+    height: 70px;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 20px;
+    margin-left: 46px;
+    margin-top: 90px;
+  }
+
+  .dice {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    margin-top: 177px;
+    margin-left: 143px;
+  }
+
+  .bt {
+    position: absolute;
+    width: 70px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    font-size: 13px;
+    margin-left: 140px;
+  }
+
+  .bnew {
+    margin-top: 110px;
+  }
+
+  .bdice {
+    margin-top: 260px;
+  }
+
+  .bhold {
+    margin-top: 320px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .player-active {
+    background-color: rgb(139, 139, 228);
+  }
+
+  .winner {
+    position: absolute;
+    font-size: 20px;
+    color: yellow;
+    background-color: black;
+    width: 120px;
+    text-align: center;
+    margin-top: 180px;
+    margin-left: 122px;
+    height: 90px;
+    padding-top: 40px;
+  }
+}

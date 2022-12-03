@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roll the Dice</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="player player0">
+        <h2 class="playerName" id="name0">Player 1</h2>
+        <p class="score" id="scoreid0">43</p>
+        <div class="current">
+          <p class="current-label">Current</p>
+          <p id="current--0">0</p>
+        </div>
+      </section>
+
+      <section class="player player1 player-active">
+        <h2 class="playerName" id="name1">Player 2</h2>
+        <p class="score" id="scoreid1">27</p>
+        <div class="current">
+          <p class="current-label">Current</p>
+          <p id="current--1">0</p>
+        </div>
+      </section>
+
+      <img src="dice-5.png" alt="Playing dice" class="dice hidden" />
+      <button class="bt bnew">New Game</button>
+      <button class="bt bdice">Roll Dice</button>
+      <button class="bt bhold">Hold</button>
+    </main>
+
+    <div class="winner hidden">You are Winner</div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
